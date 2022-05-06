@@ -159,9 +159,9 @@
 			document.addEventListener('visibilitychange', function () {
 				if (document.visibilityState == 'hidden') {
 					clearTimeout(time);
-					document.title = '桥豆麻袋(＃°Д°)';
+					document.title = '不要离开我>-<';
 				} else {
-					document.title = '你终于回来了(。・∀・)ノ';
+					document.title = '欢迎回来';
 					time = setTimeout(function () {
 						document.title = normar_title;
 					}, 3000);
@@ -469,7 +469,7 @@
 						`<div class="esa-catalog">
                         <div class="esa-catalog-contents">
                             <div class="esa-catalog-title">目录</div>
-                            <a class="esa-catalog-close">✕</a>
+                            <a class="esa-catalog-close">?</a>
                         </div>
                     </div>`);
 
@@ -742,7 +742,7 @@
 			//博客logo
 			var title = '<div class="site-branding">' +
 					'<span class="logolink moe-mashiro">' +
-					'<a href="https://www.cnblogs.com/zouwangblog/" alt="春原庄的雪">' +
+					'<a href="https://www.cnblogs.com/wo-de-bo-ke-wo-zuo-zhu/" alt="春原庄的雪">' +
 					'<ruby><span class="sakuraso">すのはら荘</span><span class="no">の</span><span class="shironeko">雪</span>' +
 					'<rt class="chinese-font">春原庄的雪</rt></ruby></a></span>' +
 					'</div>'
@@ -971,7 +971,7 @@
 			let post_view_count = $('#post_view_count').text() //阅读数
 			if (window.location.href.indexOf('articles') === -1) {
 				var header =
-						`<p class="entry-census"><span><a href="https://www.cnblogs.com/zouwangblog/"><img src="//pic.cnblogs.com/face/1646268/20190628143903.png"></a></span><span><a href="https://www.cnblogs.com/zouwangblog/">Toretto</a></span><span class="bull">·</span>${post_date}<span class="bull">·</span>${post_view_count} 次阅读</p>`;
+						`<p class="entry-census"><span><a href="https://www.cnblogs.com/zouwangblog/"><img src="//cdn.luogu.com.cn/upload/image_hosting/h0ajffzq.png"></a></span><span><a href="https://www.cnblogs.com/wo-de-bo-ke-wo-zuo-zhu/">Toretto</a></span><span class="bull">·</span>${post_date}<span class="bull">·</span>${post_view_count} 次阅读</p>`;
 				$('.pattern-header').append(header)
 				$('.pattern-center').addClass('single-center')
 				$('.pattern-header').addClass('single-header')
